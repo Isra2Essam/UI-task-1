@@ -1,0 +1,372 @@
+.container {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline;
+}
+
+nav {
+    width: 550px;
+    margin: auto;
+    background-color: white;
+    top: 0%;
+}
+
+button#cart {
+    background-color: white;
+    border-radius: 20%;
+}
+.toggle-icon{display: none;}
+a {
+    font-size: small;
+    text-decoration: none;
+}
+
+.wallpaper {
+    background-image: url(../images/background-image1.jpg) !important;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.layer {
+    background-color: rgba(15, 15, 0, 0.555);
+    position: relative !important;
+    height: 100%;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button#button1 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #199998;
+    font-size: 18px;
+    background-color: white;
+    color: #199998;
+}
+
+button#button2 {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #199998;
+    background-color: #199998;
+    color: white;
+}
+
+.buttons2 {
+    display: flex;
+}
+
+.buttons2 button {
+    padding: 20px;
+    width: 80%;
+    font-weight: 600;
+    border: 1px solid #229494;
+}
+
+button#button3 {
+    color: white;
+    background-color: #229494;
+}
+
+button#button4 {
+    color: #229494;
+    background-color: white;
+}
+
+.container2 {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.bundles {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    list-style: none;
+}
+
+.bundle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #E7ECE7;
+    text-align: center;
+}
+
+.bundles li:first-child {
+    border: 4px solid #199998;
+}
+
+.bundles li {
+    border: 4px solid #969B95;
+}
+@media only screen and (max-width:426px){
+    .bundles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bundle{
+        height: 100px;
+        width: 100px;
+    }
+    .mins{
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        padding-inline: 20px;
+        
+    }
+    nav .nav-item{
+        display: none;
+    }
+    .toggle-icon{
+        display: inline-block;
+        float: right;
+        border: none;
+        background-color: white;
+        font-size: 20px;
+        color: #7CA435;
+    }
+    
+
+}
+.mins {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    list-style: none;
+}
+
+.mins li:last-child {
+    border: 4px solid #199998;
+}
+
+.mins li {
+    border: 4px solid #969B95;
+}
+
+.gbs {
+    margin-top: 35%;
+}
+
+.fa-facebook-square {
+    color: #454C78;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-whatsapp {
+    color: white;
+    background-color: #528551;
+}
+
+.fa-twitter-square {
+    color: #4EAEBB;
+}
+
+.fa-snapchat-square {
+    color: #CCDA6C;
+}
+
+.fa-soundcloud {
+    color: #C77041;
+}
+
+button#button5 {
+    padding: 10px;
+    background-color: #229494;
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    color: white;
+}
+
+.wallpaper2 {
+    background-image: url(../images/background-image.jpg);
+    color: white;
+    
+}
+
+.layer2 {
+    background-color: rgba(4, 70, 87, 0.555);
+    position: relative !important;
+    height: 100% ;
+    padding-bottom: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.feature-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #E7ECE7;
+    position: relative;
+}
+
+.data-header {
+    padding: 10px;
+    background-color: #174D59;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.data-voice {
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    padding-inline: 30px;
+}
+@media only screen and (max-width:426px){
+
+}
+
+.circle-rect {
+    display: inline-flex;
+    padding: 30px;
+    margin-left: 5%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #174D5B;
+    position: absolute;
+}
+
+.rect {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #174D5B;
+    background-color: #F8F8F8;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.voice-header {
+    padding: 10px;
+    background-color: #249393;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px;
+    width: 100px;
+    margin:auto;
+    text-align: center;
+}
+
+.circle-rect2 {
+    display: inline-flex;
+    padding: 30px;
+    margin-left: 15%;
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #249393;
+    position: absolute;
+}
+
+.rect2 {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #249393;
+    background-color: #F8F8F8;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.conditions {
+    list-style: none;
+}
+
+.fa-circle{
+    color: #249393;
+    padding-right: 5px;
+}
+.conditio {
+    content: '\25CF';
+    font-size: 50px;
+    
+}
+
+.conditions li {
+    font-weight: 700;
+    font-size: 23px;
+
+}
+
+.latest-offers {
+    height: 260px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    text-align: center;
+    color: #249393;
+}
+
+.fa-youtube-play {
+    color: #E10716;
+}
+
+footer {
+    background-color: #303030;
+    padding-inline: 10px;
+    padding: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    border-bottom: 1px solid rgba(58, 57, 57, 0.623);
+}
+footer .fa-youtube-play{
+    color: white;
+}
+
+.section {
+    list-style: none;
+    padding: 0px;
+}
+
+@media only screen and (max-width:426px) {
+    .circle-rect{margin-left: 24%;}
+     .circle-rect2 {
+        margin-left: 24%;
+    }
+   
+}
